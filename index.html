@@ -1,87 +1,184 @@
 <!DOCTYPE html>
-<html>
-  <title>CodeTribe</title>
-  <body>
 
-    <!-- This is the @head and it will encompass our logo and our navigation bar -->
-    <head>
-      <div>
-        <table style="width: 100%">
-          <tr>
-            <td>
-              <a href="#">
-                <img src="assets/logo/logo.jpg" width="100px" alt="" />
-              </a>
-            </td>
-            <td align="right">
-              <nav
-                style="
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>CodeTribe</title>
+
+</head>
+
+<body>
+  <!-- This is the @head and it will encompass our logo and our navigation bar -->
+
+  <head>
+    <div>
+      <table style="width: 100%">
+        <tr>
+          <td>
+            <!-- <h2>My Portfolio</h2> -->
+            <a href="#">
+              <img src="assets/logo/logo.png" width="90px" height="85px" alt="" />  
+            </a>
+          </td>
+          <td align="right">
+            <nav style="
                   margin-right: 50px;
                   margin-top: 16px;
                   margin-bottom: 16px;
                   margin-left: 50px;
-                "
-              >
-                <a href="#">Home</a>
-                <a href="about_us.html" style="margin: 15px">About Us</a>
-                <a href="contact_us.html">Contact Us</a>
-              </nav>
-            </td>
-          </tr>
-        </table>
-      </div>
-    </head>
+                ">
+              <a href="#">Home</a>
+              <a href="about_us.html" style="margin: 20px">About me</a>
+              <a href="contact_us.html">Contact Us</a>
+            </nav>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </head>
 
-    <!-- This is our main and it will encompass all our content for the landing page for our site -->
-    <main>
-      <table style="width: 100%; height: 300px">
-        <tr>
-          <td colspan="2">
-            <img
-              src="../Codetribe/assets/imgs/ai_cyborg.jpeg"
+  <!-- This is our main and it will encompass all our content for the landing page for our site -->
+  <main>
+    <table style="width: 100%; height: 300px;">
+      <tr>
+        <td colspan="2">
+          <!-- <img
+              src="assets/vids/doubleflip.mp4"
               width="100%"
-              height="600px"
+              height=500px"
               alt=""
               style="object-fit: cover"
-            />
-          </td>
-        </tr>
-        <tr>
-          <td style="padding-left: 20vh; padding-top: 50px">
-            <h1>Loremm Ipsum</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt cum
-              nesciunt iste, <br />
-              pariatur sed est doloremque ullam! Dignissimos, voluptatibus. Unde
-              quia iusto <br />
-              ratione odio quam consequuntur culpa rerum illum fugiat!
-            </p>
-            <input type="text" placeholder="Username">
-          </td>
-          <td align="right" style="padding-right: 20vh; padding-top: 30px; padding-bottom: 30px">
-            <img
-              src="https://images.pexels.com/photos/845457/pexels-photo-845457.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt=""
-              width="300px"
-              height="300px"
-              style="border-radius: 50%; object-fit: cover; border: 5px solid green;"
-            />
-          </td>
-        </tr>
-      </table>
-    </main>
+            /> -->
 
-    <!-- This is our footer and it will encompass all the quick links on our website.-->
-    <footer>
-      <table style="width: 100%; height: 100px; background-color: green;">
-        <tr>
-          <td style="padding-left: 20vh;">address here</td>
-          <td colspan="2" style="padding-left: 20vh;">add a map here</td>
-        </tr>
-        <tr>
-          <td style="padding-left: 20vh;">social media links here</td>
-        </tr>
-      </table>
-    </footer>
-  </body>
+          <video width="100%" style="object-fit: cover" controls>
+            <source src="assets/vids/bs 5-0 grind.mp4" type="video/mp4">
+          </video>
+
+        </td>
+      </tr>
+      <tr>
+        <td style="padding-left: 20vh; padding-top: 50px">
+          <h1>Letlhogonolo Moroke</h1>
+          <h3>My Bio</h3> 
+          <p>
+              - I am a passionate person who is willing to learn more about the IT Industry <br> 
+              (more about code) as well as gain more experience and knowledge with hopes <br> 
+              that I'll be a Full Stack Developer, but currently I'm still focusing on Frontend <br> 
+              development. 
+            </p>
+          <p>
+            Click the <a href="about_us.html"">link</a> for more info about my Bio. &#128521;
+            </p>
+            
+            <!-- <input type=" text" placeholder="Username" /> -->
+        </td>
+        <td align="right" style="padding-right: 20vh; padding-top: 30px; padding-bottom: 30px">
+          <img src="assets/imgs/me.jpg" alt="" width="300px" height="300px" style="
+                border-radius: 50%;
+                object-fit: cover;
+                border: 5px solid #808080;
+              " />
+        </td>
+      </tr>
+    </table>
+  </main>
+
+  <!-- This is our footer and it will encompass all the quick links on our website.-->
+  <footer>
+    <table style="width: 100%; height: 100px; background-color: silver;">
+      <tr>
+        <td style="padding-left: 20vh">Braamfischerville, <br> Roodeport, <br> 1724 </td>
+
+        <!-- The code below is for the embeded map together with it's style  -->
+        <td colspan="2" style="padding-right: 15vh; padding-top: 30px; padding-bottom: 30px;">
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="330px" height="200px" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=braamfischer&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2yu.co"></a><br>
+              <style>
+                .mapouter {
+                  position: relative;
+                  text-align: right;
+                  height: 100%;
+                  width: 100%;
+                }
+              </style><a href="https://embedgooglemap.2yu.co/"></a>
+              <style>
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+                  height: 100%;
+                  width: 100%;
+                }
+              </style>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+      </tr>
+      <tr>
+
+        <!-- The code below is for the social media icons together with it's style  -->
+        <style>
+          .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+          }
+
+          .fa:hover {
+            opacity: 0.7;
+          }
+
+          .fa-twitter {
+            background: #55ACEE;
+            color: white;
+          }
+
+
+          .fa-linkedin {
+            background: #011982;
+            color: white;
+          }
+
+
+          .fa-instagram {
+            background: #e31616;
+            color: white;
+          }
+
+          .fa {
+            padding: 10px;
+            font-size: 30px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+          }
+        </style>
+
+        <td style="padding-left: 15vh">
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="https://www.linkedin.com/in/letlhogonolo-moroke-8502b1201/" class="fa fa-linkedin"></a>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding-left: 400px;">
+          <span>Created By Letlhogonolo | 2023 All rights reserved.</span>
+        </td>
+      </tr>
+    </table>
+  </footer>
+</body>
+
 </html>

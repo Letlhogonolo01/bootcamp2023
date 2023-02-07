@@ -1,6 +1,15 @@
 <!DOCTYPE html>
-<html>
-  <title>About Us</title>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>CodeTribe</title>
+  </head>
+  
   <body>
     <!-- This is the @head and it will encompass our logo and our navigation bar -->
     <head>
@@ -8,8 +17,8 @@
         <table style="width: 100%">
           <tr>
             <td>
-              <a href="index.html">
-                <img src="assets/logo/logo.jpg" width="100px" alt="" />
+              <a href="#">
+                <img src="assets/logo/logo.png" width="90px" height="85px" alt="" />  
               </a>
             </td>
             <td align="right">
@@ -22,7 +31,7 @@
                 "
               >
                 <a href="index.html">Home</a>
-                <a href="about_us.html" style="margin: 16px">About Us</a>
+                <a href="about_us.html" style="margin: 15px">About Us</a>
                 <a href="contact_us.html">Contact Us</a>
               </nav>
             </td>
@@ -32,13 +41,139 @@
     </head>
 
     <!-- This is our main and it will encompass all our content for the landing page for our site -->
-    <main style="height: 100vh; background-color: aqua">
-      <h1>This is our main About Us</h1>
+    <main style="height: 100vh; background-color: wheat; border-radius: 4%;">
+      
+      <table style="width: 100%; height: 600px;">
+        <tr>
+          <td style="padding-left: 20vh; padding-top: 50px">
+            <h1>Letlhogonolo Moroke</h1>
+            <h3>My Bio</h3> 
+            <p>
+              - I am a passionate person who is willing to learn more about Software Development <br> 
+              as well as gain more experience and knowledge about coding with hopes that I'll be <br> 
+              a Full Stack Developer, but currently I'm still focusing on Frontend development <br> 
+              because it's something that interests me.
+            </p>
+            <p>
+              - So what I do on my spare time is listening to music or if not listening to <br>
+              music I prefer skateboarding becuase it's something that I enjoy doing and also <br>
+              for the fun of it.
+               &#128526;
+            </p>
+          
+            <!-- <input type="text" placeholder="Username" /> -->
+          </td>
+          <td
+            align="right"
+            style="padding-right: 20vh; padding-top: 30px; padding-bottom: 30px"
+          >
+            <img
+              src="assets/imgs/myself.jpg"
+              alt=""
+              width="300px"
+              height="300px"
+              style="
+                border-radius: 50%;
+                object-fit: cover;
+                border: 5px solid #808080;
+              "
+            />
+          </td>
+        </tr>
+      </table>  
     </main>
 
+    <br>
     <!-- This is our footer and it will encompass all the quick links on our website.-->
     <footer>
-      <h1>This is our footer</h1>
+      <table style="width: 100%; height: 100px; background-color: silver;">
+        <tr>
+          <td style="padding-left: 20vh">Braamfischerville, <br> Roodeport, <br> 1724 </td>
+  
+          <!-- The code below is for the embeded map together with it's style  -->
+          <td colspan="2" style="padding-right: 15vh; padding-top: 30px; padding-bottom: 30px;">
+            <div class="mapouter">
+              <div class="gmap_canvas"><iframe width="330px" height="200px" id="gmap_canvas"
+                  src="https://maps.google.com/maps?q=braamfischer&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                  scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2yu.co"></a><br>
+                <style>
+                  .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 100%;
+                    width: 100%;
+                  }
+                </style><a href="https://embedgooglemap.2yu.co/"></a>
+                <style>
+                  .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 100%;
+                    width: 100%;
+                  }
+                </style>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+  
+          <!-- The code below is for the social media icons together with it's style  -->
+          <style>
+            .fa {
+              padding: 20px;
+              font-size: 30px;
+              width: 50px;
+              text-align: center;
+              text-decoration: none;
+              margin: 5px 2px;
+            }
+  
+            .fa:hover {
+              opacity: 0.7;
+            }
+  
+            .fa-twitter {
+              background: #55ACEE;
+              color: white;
+            }
+  
+  
+            .fa-linkedin {
+              background: #011982;
+              color: white;
+            }
+  
+  
+            .fa-instagram {
+              background: #e31616;
+              color: white;
+            }
+  
+            .fa {
+              padding: 10px;
+              font-size: 30px;
+              width: 30px;
+              text-align: center;
+              text-decoration: none;
+              border-radius: 50%;
+            }
+          </style>
+  
+          <td style="padding-left: 15vh">
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/letlhogonolo-moroke-8502b1201/" class="fa fa-linkedin"></a>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding-left: 400px;">
+            <span>Created By Letlhogonolo | 2023 All rights reserved.</span>
+          </td>
+        </tr>
+      </table>
     </footer>
   </body>
 </html>
