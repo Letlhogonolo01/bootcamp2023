@@ -1,0 +1,25 @@
+/* p {
+    background-color: aqua;
+    color: white;
+} */
+
+.mainBackgroundColor {
+    background-color: wheat;
+    border-radius: 10%;
+}
+
+.container-fluid {
+    margin-right: 50px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 50px;
+    /* width: 100%; */
+}
+
+.vid {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  
