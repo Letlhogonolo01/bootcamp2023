@@ -1,25 +1,101 @@
-/* p {
-    background-color: aqua;
-    color: white;
+/* .mainBackgroundColor {
+  background-color: wheat;
+  border-radius: 10%;
 } */
 
-.mainBackgroundColor {
-    background-color: wheat;
-    border-radius: 10%;
-}
-
 .container-fluid {
-    margin-right: 50px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 50px;
-    /* width: 100%; */
+  background-color: whitesmoke;
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  /* width: 100%; */
 }
 
 .vid {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 
-  
+.cardHead {
+  background-color: none;
+  width: 100%;
+  padding-left: 30px;
+  padding-top: 50px;
+}
+
+.card {
+  background-color: wheat;
+  width: 100%;
+  padding-left: 30px;
+  padding-top: 50px;
+}
+
+.cardImg {
+  width: 300px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 350px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 100%;
+  width: 100%;
+}
+
+.cardFooter {
+  background-color: silver;
+}
+
+.card-text-location {
+  padding-left: 30px;
+  padding-top: 40px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #011982;
+  color: white;
+}
+
+.fa-instagram {
+  background: #e31616;
+  color: white;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 25px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+ 
