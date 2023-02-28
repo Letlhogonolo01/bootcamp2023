@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./style.css">
   <title>CodeTribe</title>
+  <script src="./index.js"></script>
 </head>
 
 <body>
@@ -56,12 +57,12 @@
                 </p>
 
                 <h4 class="card-subTitle">Address</h4>
-                <p class="card-text"> 
+                <p class="card-text">
                   South Africa, Johannesburg
                 </p>
 
                 <h4 class="card-subTitle">Email</h4>
-                <p class="card-text"> 
+                <p class="card-text">
                   letlhogonolo.moroke8@gmail.com
                 </p>
 
@@ -78,29 +79,18 @@
         <td>
 
           <h2 class="card-title">Message me</h2>
-          <p class="card-subTitle">
-            Name
-          </p>
-          <input type="text" placeholder="Type here..." />
 
-          <p class="card-subTitle">
-            Subject
-          </p>
-          <input type="text" placeholder="Type here..." />
-
-          <p class="card-subTitle">
-            Email address
-          </p>
-          <input type="text" placeholder="Type here..." />
-
-          <p class="card-subTitle">
-            Message
-          </p>
-          <input type="text" placeholder="Type here..." /> <br>
-
-          <br>
-          <button type="button" class="btn btn-primary">Send Message</button>
-
+          <form id="my-form" action="https://formspree.io/f/mzbqrogk" method="POST">
+            <label class="card-subTitle">Full Name:</label> <br>
+            <input type="text" name="name" placeholder="Name here..." /><br><br>
+            <label class="card-subTitle">Email:</label> <br>
+            <input type="email" name="email" placeholder="Email here..." /><br><br>
+            <label class="card-subTitle">Message:</label><br>
+            <textarea type="text" name="message" cols="24" rows="6" placeholder="Message here..."></textarea><br><br>
+            <input type="hidden" name="message" placeholder="Message here..." />
+            <button id="my-form-button" class="btn btn-primary">Submit</button>
+            <p id="my-form-status"></p>
+          </form>
         </td>
       </div>
     </div>
@@ -117,8 +107,8 @@
           </p>
           <tr>
             <td>
-              <a href="#" class="fa fa-twitter"></a>
-              <a href="#" class="fa fa-instagram"></a>
+              <a href="https://twitter.com/home" class="fa fa-twitter"></a>
+              <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
               <a href="https://www.linkedin.com/in/letlhogonolo-moroke-8502b1201/" class="fa fa-linkedin"></a>
             </td>
           </tr>
@@ -138,6 +128,8 @@
       </div>
     </div>
   </div>
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
