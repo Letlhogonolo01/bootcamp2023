@@ -1,13 +1,10 @@
 window.onload = function () {
+
   //  The code bellow is for the dev skills, tools and languages
   let devSkills = new Array(
     { img: "assets/icons/html-5.png", name: "<b>HTML", level: "<b>4" },
     { img: "assets/icons/css3.png", name: "<b>CSS", level: "<b>3" },
-    {
-      img: "assets/icons/javascript.png",
-      name: "<b>JAVASCRIPT",
-      level: "<b>2",
-    },
+    { img: "assets/icons/javascript.png", name: "<b>JAVASCRIPT", level: "<b>2" },
     { img: "assets/icons/angular.png", name: "<b>ANGULAR", level: "<b>3" },
     { img: "assets/icons/ionic.png", name: "<b>IONIC", level: "<b>3" },
     { img: "assets/icons/bootstrap.png", name: "<b>BOOTSTRAP", level: "<b>4" },
@@ -29,7 +26,8 @@ window.onload = function () {
       "</td></tr></table><br>";
   }
   listUl += "</div>";
-  document.getElementById("skillsList").innerHTML = listUl;
+  document.getElementById("devSkills").innerHTML = listUl;
+
 
   //  The code bellow is for the contact form
   var form = document.getElementById("my-form");
